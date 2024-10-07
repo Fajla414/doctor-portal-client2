@@ -1,0 +1,28 @@
+.footer-container{
+    height: 350px;
+    padding-top: 3rem;
+    border-top: 1px solid #f5efef;
+    width: 100%;
+    background-image: url('../../../images/footer.png');
+    background-position: center ;
+    background-size: contain;
+}
+
+.footer-container .line-height{
+    line-height: -3rem;
+}
+
+.footer-container .icon{
+padding:9px 18px;
+color: white;
+font-size: 23px;
+border-radius: 50%;
+background-image: linear-gradient(45deg, #19D3AE, #0FCFEC);
+transition: .2s ease-in;
+}
+
+.footer-container .icon:hover{
+    background-image: none;
+    border: 2px solid #19D3AE;
+    color: black;
+}
