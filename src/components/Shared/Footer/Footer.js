@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Footer.css';
 
 
@@ -36,9 +35,9 @@ const Footer = () => {
                         <h5 className="text-color">Our Address</h5>
                         <p className="my-1">New York - 101010 Hudson <br /> Yards</p>
                         <div className="icon-container mb-5 mt-4">
-                            <span className='icon me-4'><i class="fa-brands fa-facebook-f"></i></span>
-                            <span className='icon mx-3'><i class="fa-brands fa-linkedin"></i></span>
-                            <span className='icon mx-3'><i class="fa-brands fa-twitter"></i></span>
+                            <span className='icon me-4'><i className="fa-brands fa-facebook-f"></i></span>
+                            <span className='icon mx-3'><i className="fa-brands fa-linkedin"></i></span>
+                            <span className='icon mx-3'><i className="fa-brands fa-twitter"></i></span>
                         </div>
                         <h5>Call now</h5>
                         <button className='btn bg-color fw-bold text-light'>+20255502145</button>
